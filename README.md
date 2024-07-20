@@ -23,7 +23,7 @@ This script scrapes www.flicks.com.au by given movie names from google sheet.
      ```
 
 3. **Download the Repository**
-   - Download this repository's code from [GitHub](https://github.com/arnaldo31/flicks/archive/refs/heads/main.zip).
+   - Download this repository's code from [GitHub](https://github.com/arnaldo003/flicks/archive/refs/heads/main.zip).
 
 4. **Unzip the File**
    - Unzip the downloaded file. If you do not have an unzip application, you can download one [here](https://www.7-zip.org/a/7z2406-x64.exe).
