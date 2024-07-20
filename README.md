@@ -1,6 +1,7 @@
 # Flicks Scraper
 
 This script scrapes www.flicks.com.au by given movie names from google sheet.
+Runs twice a day
 
 ## Technologies Used
 - Python
