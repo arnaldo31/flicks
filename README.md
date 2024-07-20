@@ -3,6 +3,10 @@
 This script scrapes www.flicks.com.au by given movie names from google sheet.
 Runs twice a day
 
+# Run time of script.
+   08:00 UTC
+   16:00 UTC
+   
 ## Technologies Used
 - Python
 - GOOGLE SHEETs
