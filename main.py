@@ -155,8 +155,16 @@ class flicks:
                     dic['Movie name'] = self.movie_name
                     dic['Date'] = date
                     dic['Theatre'] = article.h4.text
-                    dic['Times'] = article.select_one('.times-calendar-times__el__time').text
-                    dic['Ticket link'] = article.select_one('[data-category="Bookings"]')['href']
+                    times = article.select('.times-calendar-times__el__time')
+                    time_dates = []
+                    for time_ in times:
+                        time_dates.append(time_.text.strip())
+                    time_dates = ' | '.join(time_dates) 
+                    dic['Times'] = time_dates
+                    try:
+                        dic['Ticket link'] = article.select_one('[data-category="Bookings"]')['href']
+                    except:
+                        dic['Ticket link'] = ''
                     print(dic)
                     self.save.append(dic)
     
